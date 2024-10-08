@@ -1,0 +1,62 @@
+/* Coverpage.css */
+
+.cover-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height */
+  overflow: hidden; /* Hide overflow */
+}
+
+.cover-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Place video behind other content */
+  transform: translate(-50%, -50%); /* Center the video */
+  opacity: 0.6;
+  object-fit: cover; /* Make sure video covers the container */
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(22, 34, 57, 0.85);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  z-index: 1; /* Ensure content is above the video */
+  text-align: center; /* Center text */
+}
+
+/* Button and text enhancements */
+.slogan {
+  font-family: 'Poppins', sans-serif;
+}
+
+.discover-btn {
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.discover-btn:hover {
+  background-color: #ffcc00;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 2rem;
+  }
+
+  .discover-btn {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}

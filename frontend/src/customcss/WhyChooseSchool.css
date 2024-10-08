@@ -1,0 +1,51 @@
+/* WhyChooseSchool.css */
+
+.why-us {
+  background: url("/images/courses-bg.jpg") center center/cover no-repeat;
+  height: 100vh;
+  /* Full viewport height */
+  padding: 100px 0; /* Padding for proper spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #ffcc00b1;
+}
+
+.nav-tabs .nav-link {
+  color: #ffffff;
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ffcc00b1;
+  color: #ffffff;
+}
+
+.tabs-content {
+  border-top: 2px solid #007bff;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.why-us h4 {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.why-us p {
+  color: #f8f9fa;
+}
+
+.section-heading p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,66 @@
+/* Navbar Background and Padding */
+.header-navbar {
+  background-color: rgba(22, 34, 57, 0.95);
+  height: 80px;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out; /* Smooth transition on scroll */
+}
+
+/* Navbar Links Styling */
+.nav-item {
+  color: white !important;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #ffc107 !important; /* Yellow on hover */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* Toggle Button */
+.navbar-toggler {
+  background-color: #ffc107; /* Yellow for toggle button */
+  border: none;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 991px) {
+  .navbar {
+    padding: 15px;
+  }
+
+  .nav-item {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
+/* Dropdown Styling */
+.nav-dropdown {
+  background-color: #fff;
+}
+
+.nav-dropdown-item {
+  color: #222;
+}
+
+.nav-dropdown-item:hover {
+  background-color: #ffc107;
+  color: #fff;
+}

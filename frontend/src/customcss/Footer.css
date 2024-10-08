@@ -1,0 +1,39 @@
+.footer {
+    background-color: rgba(22, 34, 57, 0.85); /* Dark background */
+    color: white; /* Text color */
+    padding: 20px 0; /* Padding */
+  }
+  
+  .footer h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .social-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .social-links li {
+    display: inline; /* Inline list items */
+    margin-right: 15px; /* Space between icons */
+  }
+  
+  .social-links a {
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .created-by {
+    margin-top: 15px;
+    font-size: 14px; /* Font size for credit */
+  }
+  

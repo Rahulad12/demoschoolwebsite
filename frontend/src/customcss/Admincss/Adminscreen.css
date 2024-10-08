@@ -1,0 +1,17 @@
+.adminscreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.menu-card{
+   border: 2px solid #1f1d1d;
+   width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu-card:hover{
+    border:2px solid  skyblue;
+}
