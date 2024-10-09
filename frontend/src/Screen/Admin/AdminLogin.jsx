@@ -11,7 +11,7 @@ const AdminLogin = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [feedback, setFeedback] = useState("");
-  const [showpassword, setShowpassword] = useState("password");
+  const [showpassword, setShowpassword] = useState(false);
   const [feedbacktype, setFeedbacktype] = useState("");
 
   console.log(showpassword);
