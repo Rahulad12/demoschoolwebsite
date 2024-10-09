@@ -35,7 +35,7 @@ const AdminGetAllNotice = () => {
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(`${backend_url}notice/${id}`);
+      await axios.delete(`${backend_url}/notice/${id}`);
       setFeedback("Notice deleted successfully");
       setFeedbackType("success");
       setNotice((prevNotice) =>
